@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>초밥</title>
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>초밥</title>
+        <link rel="stylesheet" type="text/css" href="bob.css"/>
 </head>
 
 <body>
@@ -15,7 +16,7 @@
     <h4>h4</h4>
     <h5>h5</h5>
     <h6>h6</h6>
-
+    
     <i>i(이탤릭/기울기)</i>
     <br>
     <b>b(볼드/두껍게)</b>
@@ -47,28 +48,28 @@
     <time datetime="2022-04-27">오늘</time>은 시험 끝난날
     <blockquote cite="내용을 가져온 사이트">가져온 내용</blockquote>
     <pre>
-
-    입력한
-     내용 그대로 표시</pre>
-    <dl>
-        <dt>용어의 제목</dt>
-        <dd>용어의 뜻</dd>
-    </dl>
-    <ul>
-        <li>내용1</li>
-        <li>내용2</li>
-        <li>내용3</li>
-
-    </ul>
-    <ol>
-        <li>내용1</li>
-        <li>내용2</li>
-        <li>내용3</li>
-    </ol>
-    <a
+        
+        입력한
+        내용 그대로 표시</pre>
+        <dl>
+            <dt>용어의 제목</dt>
+            <dd>용어의 뜻</dd>
+        </dl>
+        <ul>
+            <li>내용1</li>
+            <li>내용2</li>
+            <li>내용3</li>
+            
+        </ul>
+        <ol>
+            <li>내용1</li>
+            <li>내용2</li>
+            <li>내용3</li>
+        </ol>
+        <a
         href="file:///C:/Users/bouob/OneDrive/%EB%B0%94%ED%83%95%20%ED%99%94%EB%A9%B4/%EC%9B%B9%EB%94%94/chobob.html">웹</a>
-    <img src="http://newsimg.hankookilbo.com/2019/04/29/201904291390027161_3.jpg" alt="고양이" />
-    <table border="1" bordercolor="skyblue">
+        <img src="http://newsimg.hankookilbo.com/2019/04/29/201904291390027161_3.jpg" alt="고양이" />
+        <table border="1" bordercolor="skyblue">
         <tr>
             <td>A</td>
             <td>B</td>
@@ -83,38 +84,297 @@
     <input type="search" name="searchKeyword" />
     <input type="url" name="userUrl" />
     <form name="해당 폼의 이름" action="값을 보낼 주소" method="post"></form>
-        <input type="number" name="step=3" />
-        <br><br>
-        <input type="number" name="step=5" />
-        <br><br>
-        <input type="number" name="step=10" />
-        <input type="tel" name="phone1" />
-        <input type="tel" name="phone2" />
-        <input type="tel" name="phone3" />
+    <input type="number" name="step=3" />
+    <br><br>
+    <input type="number" name="step=5" />
+    <br><br>
+    <input type="number" name="step=10" />
+    <input type="tel" name="phone1" />
+    <input type="tel" name="phone2" />
+    <input type="tel" name="phone3" />
+</form>
+<input type="color" name="서버에서 인식할 값" />
+<input type="color" name="userColor" />
+<input type="range" name="userAge" min="20" max="29" value="25" step="1" />
+<input type="password" name="userPassword" />
+<input type="checkbox" name="userHobby" value="listeningMusic" />
+<input type="radio" name="userHobby" value="listeningMusic" />
+<br>
+<input type="date" name=userBirthday />
+<form name="" action="" method="post"></form>
+<input type="month" name="userBirth" />
+<input type="week" name="weeks"/>
+<input type="time" name="waketime"/>
+<output name="서버에서 인식할 값" for="계산과 관련한 태그의 id속성의 값"></output>
+<input type="button" value="버튼에 표시 할 텍스트"/>
+<input type="button" value="이메일 중복 확인"/>
+<input type="file" name=""/>
+<input type="file" name=""multiple/>
+<input type="submit" value="전송"/>
+<br>
+<form name="test" action="test.php" method="post">
+    아이디:<input type="text"name=id/>
+    별명:<input type="text"name='nickName'/>
+    <input type="reset" value="모두 지우기"/>
+</form> 
+<br>
+<input type="text" name="userld" placeholder="아이디를 입력하세요."/>
+<br>
+    <input type="number" name="userBirthYear"pattern="\d" placeholder="태어난 년도를 입력하세요"/>
+    <br>
+    <input type="text" name="userld" placeholder="인스타 아이디"/>
+    <br>
+    <form name="해당 폼의 이름" action="값을 보낼 주소" method="post">
+        <input type="text" name="userld" placeholder="아이디를 입력하세요."/>
+        <input type="text" name="userNickname" placeholder="닉네임을 입력하세요."autofocus/>
+        <input type="number" name="userAge" placeholder="나이를 입력하세요."autofocus/>
     </form>
-    <input type="color" name="서버에서 인식할 값" />
-    <input type="color" name="userColor" />
-    <input type="range" name="userAge" min="20" max="29" value="25" step="1" />
-    <input type="password" name="userPassword" />
-    <input type="checkbox" name="userHobby" value="listeningMusic" />
-    <input type="radio" name="userHobby" value="listeningMusic" />
-    <input type="date" name=userBirthday />
-    <form name="" action="" method="post"></form>
-    <input type="month" name="userBirth" />
-    <input type="week" name="weeks"/>
-    <input type="time" name="waketime"/>
-    <output name="서버에서 인식할 값" for="계산과 관련한 태그의 id속성의 값"></output>
-    <input type="button" value="버튼에 표시 할 텍스트"/>
-    <input type="button" value="이메일 중복 확인"/>
-    <input type="file" name=""/>
-    <input type="file" name=""multiple/>
-    <input type="submit" value="전송"/>
-    <form name="test" action="test.php" method="post">
-        아이디:<input type="text"name=id/>
-        별명:<input type="text"name='nickName'/>
-        <input type="reset" value="모두 지우기"/>
+    <br>
+    <form name="해당 폼의 이름" action="값을 보낼 주소" method="post">
+        <input name="text" name="favoriteCharacter" autocomplete="on"/>
     </form>
-
-
+    <form name="해당 폼의 이름" action="값을 보낼 주소" method="post">
+        <h1>가장 좋아하는 캐릭터는?(선택입력)</h1>
+        <input type="text" name="favoriteCharacter" readonly> 초밥</textarea>
+        <h1>가장 아끼는 친구들은?(선택입력)</h1>
+        <input type="text" name="friends"required />
+        <br>
+        <br>
+        <input type="submit" value="입력"/>
+    </form>
+    <form name="해당 폼의 이름" action="값을 보낼 주소" method="post">
+        <label for="id">ID</label>
+        <input type="text" id="id"/>
+    </form>
+    <select name="서버에서 인식할 값">
+        <option value="실제 서버에 전송할 값">화면 표시 값</option>
+        <option value="1">1월</option>
+        <option value="2">2월</option>
+    </select>
+    <select name="birthYear">
+        <option value="2005">2005년</option>
+        <option value="2006">2006년</option>
+    </select>
+    <input type="text"list="datalist태그의 id속성의 값">
+    <datalist id="">
+        <option value="옵션태그 값">옵션태그 표시 내용</option>
+    </datalist>
+    <h1>롤 라인은?</h1>
+    <input type="text"list="league of legends">
+    <datalist id="lol">
+        <option value="adcarry">adcarry</option>
+        <option value="top">adcarry</option>
+        <option value="mid">adcarry</option>
+    </datalist>
+    <h1>롤 라인은?</h1>
+    <select>
+        <optgroup label="lol">
+            <option value="adcarry">adcarry</option>
+            <option value="top">adcarry</option>
+            <option value="mid">adcarry</option>
+        </optgroup>
+    </select>
+    <br>
+    <br>
+    <progress value="40" max="100"></progress><b>40%</b>
+    <br>
+    <br>
+    <meter value="40" max="100"></meter>
+    <br>
+    <br>
+    <h3>낮은 값(low와 high의 범위 안)</h3>
+    <meter min="0" max="100" low="30" optimum="50" value="30" high="80"></meter>
+    <h3>높은 값(low와 high의 범위 안)</h3>
+    <meter min="0" max="100" low="30" optimum="50" value="70" high="80"></meter>
+    <h3>적당 값(low와 high의 범위 안)</h3>
+    <meter min="0" max="100" low="30" optimum="50" value="50" high="80"></meter>
+    <h3>max속성 적용안함</h3>
+    <meter value="0.5"></meter>
+    <h3>max속성 적용함</h3>
+    <meter value="0.5" max="20"></meter>
+    <form name="해당 폼의 이름" action="값을 보낼 주소" method="post 방식인지 get 방식인지">
+        <input type="text" name="myname" value=""placeholder="이름을 입력하세요" maxlength="입력가능 글자 수"/>
+        <input type="password" name="mypw" placeholder="비밀번호 입력" maxlength="20"/>
+    </form>
+    <form name="해당 폼의 이름" action="값을 보낼 주소" method="post 방식인지 get 방식인지">
+        <input type="checkbox" name="computer" value="computer" />컴퓨터
+        음악감상<input typ
+        e="checkbox" name="listening" value="listening" checked/>
+    </form>
+    <form name="해당 폼의 이름" action="값을 보낼 주소" method="post 방식인지 get 방식인지">
+        <p><b>사용중인 통신사를 선택해주세요.</b></p>
+        SKT<input type="radio" name="telecom" value="skt"/>
+        KT<input type="radio" name="telecom" value="kt"/>
+        LGU+<input type="radio" name="telecom" value="lgu"/>
+        <textarea name="application_form">입력할 내용</textarea>
+        <select name="birth">
+            <option value="2005" selected(초기 선택된 항목)>2005</option>
+            <option value="2006">2006</option>
+            <option value="2007">2007</option>
+        </select>
+        <input type="submit" name="submit" value="입력완료"/>
+        <input type="reset" name="reset" value="입력값 초기화"/>
+    </form> 
+    <main>
+        <header>
+            <p>I am header</p>
+        </header><!-- header -->
+        <section>
+            <div>
+                <div>
+                    <p>I am content1</p>
+                </div><!-- content1 -->
+                <div>
+                    <p>I am content2</p>
+                </div><!-- content2 -->
+                <div>
+                    <p>I am content3</p>
+                </div><!-- content3 -->
+            </div>
+            <div>
+                <p>right</p>
+            </div>
+        </section><!-- container -->
+        <footer>
+            <p >I am footer</p>
+        </footer><!-- footer -->
+    </main>
+    <div> area 1</div>
+    <div> area 2</div>
+    <div> area 3</div>
+    <br>
+    <br>
+    <span>area 1</span>
+    <span>area 2</span>
+    <span>area 3</span>
+    <br>
+    <br>
+    <header>
+        <div id="serviceNameArea"></div>
+        <img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMjAxMjhfNTUg%2FMDAxNjQzMzUwNDcwNDA0.-w4I3DtbCEOb6NO3Wiyve_PIGPbkx2rUSV1-WRQ33LUg.jcgTvzhGVAI4f9_lqaalgug1taoOTPDopPI-jA6qPjYg.JPEG.lalatoy0%2FIMG_7912.jpg&type=a340" alt="cat.png">
+    </div>
+    <a href="/">\
+        <h1 id="serviceName">pinkcoding</h1>
+        <h2>Web Tecchnology,핑크코딩</h2>
+    </a>
+</div>
+<div id="searchBtnLabel">
+    <img src="/marerial/internal/images/service/searchlcon.png" id="searchBtn">
+</div>
+</header>   
+<address>서울시 송파구 잠실6동 올림픽로 300 120층</address>
+        <style>
+            address{font-style: unset}
+        </style>
+    <a href="tel:010-2389-6724">전화하기</a>
+    <footer>
+        <div id="serviceNameArea">
+            <a href="/">
+                <h2>(주)핑크코딩</h2>
+            </a>
+        </div>
+        <ul>
+            <li>회사소개</li>
+            <li>개인정보보호정책</li>
+            <li>위치</li>
+            <li><a href="tel:010-2389-6724">고객센터</a></li>
+        </ul>
+        <address>주소:컴퓨터과학고등학교</address>
+    </footer>
+    <nav>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScrpt</li>
+        </ul>
+    </nav>
+    <br>
+    <br>
+    <section>
+        <h1>초밥</h1>
+        <p>초밥의 종류는 다양하다</p>
+    </section>   
+    <section>
+        <h1>애플</h1>
+        <p>아이폰 좋아연~</p>
+    </section>
+    <article>
+        <h1>아이폰</h1>
+        <p>디자인이 아주 귀여워</p>
+    </article>
+    <aside>
+        이거 언제 끝나요?<br>
+        안끝나요<br>
+        <ul>
+            <li><a href="https://www.google.com/" target="_blank">구글 바로가기</a></li>
+        </ul>
+    </aside>
+    <video src="https://youtu.be/jVKrIEyeHVo" width="400" controls autoplay>
+        영상 연결에 실패했어요 :(
+    </video>
+    <audio src="음성파일의 주소">
+        웹브라우저가 audio 태그를 지원하지 않을 때 표시할 문구
+    </audio>
+    <p>
+        <abbr title="스시">초밥</abbr>먹자    </p>
+        <base href="/material/images/HTML/"/>
+        <img src="pico-152.png"/>
+       <p> <bdi>텍스트의 방향을 반대로 변경//안의 글자를 감싸줌</bdi></p>
+       <br>
+       <P>1 2 3 </P>
+        <bdo dir="rtl">1 2 3 </bdo> //왼쪽에서 오른쪽 방향으로 작성
+        <table>
+            <caption>내가 좋아하는 초밥</caption>
+            <thead>
+                <tr>
+                    <th>원산지</th>
+                    <th>이름</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        초밥
+                    </td>
+                    <th>초바비</th>
+                </tr>
+                <tr>
+                    <td>cho</td>
+                    <th>bob</th>
+                </tr>
+            </tbody>
+        </table>
+        <img src="http://image.kyobobook.co.kr/newimages/music/large/3343/2343318.jpg"/>
+        <cite>SHENA RINGO</cite>
+       <br>
+        <code>
+            word="hello world"<br>
+            print(word)<br>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
+            exit()<br>
+        </code>
+        <p>넷플릭스<del>보고싶었다</del> 보고싶다</p>
+        <br>
+        </code>
+        <p>넷플릭스<del>보고싶었다</del><ins>보고</ins>싶다</p>
+        <details>
+            <summary>내가 좋아하는 초밥 목록</summary>
+            <ul>
+                <li>계란초밥</li>
+                <li>새우초밥</li>
+                <li>연어초밥</li>
+            </ul>
+        </details>
+        <form method="post" action="">
+            <fieldset>
+                <b>ID</b><inputn type="text" size=10 maxlength="10" name="id"> <br/>           </fieldset>
+        </form> 
+        <figure>
+            <img src="material/images/HTML/pico-152.png"/>
+            <figcaption>이미지 설명</figcaption>
+        </figure>
+        <figure>
+            <img src="materia/images/HTML/pico-152.png"/>
+        </figure>
+        
 </body>
 </html>
